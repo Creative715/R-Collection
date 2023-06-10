@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
 
-class EnenproductController extends Controller
+class EnproductController extends Controller
 {
   /**
    * Display a listing of the resource.
@@ -35,7 +35,7 @@ class EnenproductController extends Controller
   {
     $encategories = Encategory::all();
     return view('admin.enproduct.create', [
-      'categories' => $encategories
+      'encategories' => $encategories
     ]);
   }
 
@@ -48,14 +48,16 @@ class EnenproductController extends Controller
   public function store(Request $request)
   {
     $enproduct = Enproduct::create($request->all());
-
+    $enproduct->encategories()->attach($request->input('categories'));
     // Images
     if ($request->file('img')) {
       $path = Storage::putFile('public', $request->file('img'));
       $url = Storage::url($path);
       $enproduct->img = $url;
     }
-    $enproduct->save();
+
+
+    
     if ($request->hasFile("images")) {
       $files = $request->file("images");
       foreach ($files as $file) {
@@ -82,7 +84,7 @@ class EnenproductController extends Controller
     $encategories = Encategory::all();
 
     return view('admin.enproduct.edit', [
-      'categories' => $encategories,
+      'encategories' => $encategories,
       'enproduct' => $enproduct
     ]);
   }
@@ -94,7 +96,7 @@ class EnenproductController extends Controller
    * @param \App\Models\enProduct $enProduct
    * @return \Illuminate\Http\Response
    */
-  public function update(Request $request, enProduct $enproduct)
+  public function update(Request $request, Enproduct $enproduct)
   {
 
     $enproduct->update($request->all());

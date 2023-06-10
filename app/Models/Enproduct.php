@@ -13,11 +13,11 @@ use Illuminate\Support\Str;
 class Enproduct extends Model
 {
     use HasFactory;
-    protected $fillable =  ['title', 'seo_title', 'price', 'category_id', 'published', 'slug', 'buynow', 'description', 'img', 'content'];
+    protected $fillable =  ['title', 'seo_title', 'price', 'encategory_id', 'published', 'slug', 'description', 'img', 'content'];
 
     public function setSlugAttribute($slug)
     {
-        $this->attributes['slug'] = Str::slug(mb_substr($this->title, 0, 140) . "-");
+        $this->attributes['slug'] = Str::slug(mb_substr($this->seo_title, 0, 140) . "-");
     }
 
     public function scopeAllPaginate($query, $numbers)
@@ -45,11 +45,15 @@ class Enproduct extends Model
         return $this->hasOne(State::class);
     }
 
-    public function category(): BelongsTo
+    public function category(): HasMany
     {
-        return $this->belongsTo('App\Models\Encategory', 'category_id');
+        return $this->hasMany('App\Models\Encategory', 'encategory_id');
     }
-
+    
+    public function encategories()
+    {
+        return $this->belongsToMany(Encategory::class, 'encategory_enproduct', 'enproduct_id', 'encategory_id');
+    }
     public function images(): HasMany
     {
         return $this->hasMany(Image::class, 'product_id');

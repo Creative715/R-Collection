@@ -17,8 +17,9 @@ class EncategoryController extends Controller
      */
      public function index()
      {
-         return view('admin.encategory.index', [
-             'categories'=> Encategory::paginate(10)
+        $encategories = Encategory::latest()->paginate(10);
+        return view('admin.encategory.index', [
+             'encategories'=> $encategories
          ]);
      }
 
@@ -29,12 +30,16 @@ class EncategoryController extends Controller
       */
       public function create()
       {
-        return view('admin.encategory.create');
+        $encategories = Encategory::all();
+        return view('admin.encategory.create', [
+            'encategories'=> $encategories
+        ]);
       }
 
       public function store(Request $request)
       {
        $encategory = Encategory::create($request->all());
+       $encategory->parent_id = $request->input('parent_id');
          if ($request->file('img')) {
             $path = Storage::putFile('public', $request->file('img'));
             $url = Storage::url($path);
@@ -49,12 +54,13 @@ class EncategoryController extends Controller
       * @param  \App\Models\enCategory $encategory
       * @return \Illuminate\Http\Response
       */
-     public function edit(Encategory $encategory)
-     {
-         return view('admin.encategory.edit',[
-            'encategory' => $encategory
-         ]);
-     }
+      public function edit($id)
+      {
+          $encategory = Encategory::findOrFail($id);
+          $encategories = Encategory::all();
+      
+          return view('admin.encategory.edit', compact('encategory', 'encategories'));
+      }
 
      /**
       * Update the specified resource in storage.
@@ -63,18 +69,23 @@ class EncategoryController extends Controller
       * @param  \App\Models\Encategory  $encategory
       * @return \Illuminate\Http\Response
       */
-     public function update(Request $request, Encategory $encategory)
-     {
-         $encategory->update($request->except('slug'));
-         if ($request->file('img')) {
-            $path = Storage::putFile('public', $request->file('img'));
-            $url = Storage::url($path);
-            $encategory->img = $url;
-          }
-          $encategory->save();
 
-         return redirect('/inside/encategory')->with('success', 'Record successfully updated!');
-     }
+        public function update(Request $request, Encategory $encategory)
+        {
+        
+            $encategory->update($request->all());
+            
+            if ($request->file('img')) {
+                $path = Storage::putFile('public', $request->file('img'));
+                $url = Storage::url($path);
+                $encategory->img = $url;
+              }
+
+            $encategory->save();
+        
+            return redirect('/inside/encategory')->with('success', 'Category updated successfully');
+        }
+         
      /**
       * Remove the specified resource from storage.
       *
