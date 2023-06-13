@@ -34,12 +34,12 @@
                             <div class="inner">
                                 <h3>{{ $enproducts_count }}</h3>
 
-                                <p>Кількисть статей</p>
+                                <p>Products quantity</p>
                             </div>
                             <div class="icon">
                                 <i class="ion ion-android-clipboard"></i>
                             </div>
-                            <a href="{{ route('enproduct.index') }}" class="small-box-footer">Редагувати статті <i
+                            <a href="{{ route('enproduct.index') }}" class="small-box-footer">Edit product <i
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -50,12 +50,12 @@
                             <div class="inner">
                                 <h3>{{ $encat_count }}</h3>
 
-                                <p>Кількість категорій</p>
+                                <p>Categories quantity</p>
                             </div>
                             <div class="icon">
                                 <i class="ion ion-android-list"></i>
                             </div>
-                            <a href="{{ route('encategory.index') }}" class="small-box-footer">Редагувати категорії <i
+                            <a href="{{ route('encategory.index') }}" class="small-box-footer">Edit categories<i
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -66,12 +66,12 @@
                             <div class="inner">
                                 <h3>45</h3>
 
-                                <p>Лікарі</p>
+                                <p>Users quantity</p>
                             </div>
                             <div class="icon">
                                 <i class="ion ion-person-add"></i>
                             </div>
-                            <a href="#" class="small-box-footer">Редагувати лікарів <i
+                            <a href="#" class="small-box-footer">Edit users <i
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -82,28 +82,12 @@
                             <div class="inner">
                                 <h3>73</h3>
 
-                                <p>Відгуки</p>
+                                <p>Reviews</p>
                             </div>
                             <div class="icon">
                                 <i class="ion ion-pie-graph"></i>
                             </div>
                             <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                        </div>
-                    </div>
-                    <!-- ./col -->
-                    <div class="col-lg-3 col-6">
-                        <!-- small box -->
-                        <div class="small-box bg-danger">
-                            <div class="inner">
-                                <h3>45</h3>
-
-                                <p>Новини</p>
-                            </div>
-                            <div class="icon">
-                                <i class="ion ion-pie-graph"></i>
-                            </div>
-                            <a href="#" class="small-box-footer">Редагувати новини<i
-                                    class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
                     <!-- ./col -->

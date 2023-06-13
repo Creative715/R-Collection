@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('title', 'enProducts')
+@section('title', 'Products')
 @section('content')
     <!-- Content Wrapper. Contains enproduct content -->
     <div class="content-wrapper">

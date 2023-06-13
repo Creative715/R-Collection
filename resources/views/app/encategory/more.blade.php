@@ -55,25 +55,26 @@
                                             <!--start product details -->
                                             <div class="product-details text-center">
                                                 <!-- product title -->
-                                                <div class="product-title">
+                                                <h2 class="product-title">
                                                     <a
                                                         href="{{ route('encategory.more', $subcategory->slug) }}">{{ $subcategory->title }}</a>
-                                                </div>
+                                                </h2>
                                                 <!-- End product title -->
                                                 <!-- product price -->
                                                 <!-- End product price -->
 
                                                 <div class="product-review">
-                                                    <i class="font-13 fa fa-star"></i>
-                                                    <i class="font-13 fa fa-star"></i>
-                                                    <i class="font-13 fa fa-star"></i>
-                                                    <i class="font-13 fa fa-star-o"></i>
-                                                    <i class="font-13 fa fa-star-o"></i>
+                                                    <span
+                                                        style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
+                                                    <span
+                                                        style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
+                                                    <span
+                                                        style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
                                                 </div>
-                                                <div class="product-title">
+                                                <h2 class="product-title">
                                                     <a
                                                         href="{{ route('encategory.more', $subcategory->slug) }}">more</a></span>
-                                                </div>
+                                                </h2>
                                             </div>
                                             <!-- End product details -->
                                         </div>
@@ -110,25 +111,26 @@
                                             <!--start product details -->
                                             <div class="product-details text-center">
                                                 <!-- product title -->
-                                                <div class="product-title">
+                                                <h2 class="product-title">
                                                     <a
                                                         href="{{ route('enproduct.more', $enproduct->slug) }}">{{ $enproduct->title }}</a>
-                                                </div>
+                                                </h2>
                                                 <!-- End product title -->
                                                 <!-- product price -->
                                                 <!-- End product price -->
 
                                                 <div class="product-review">
-                                                    <i class="font-13 fa fa-star"></i>
-                                                    <i class="font-13 fa fa-star"></i>
-                                                    <i class="font-13 fa fa-star"></i>
-                                                    <i class="font-13 fa fa-star-o"></i>
-                                                    <i class="font-13 fa fa-star-o"></i>
+                                                    <span
+                                                    style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
+                                                <span
+                                                    style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
+                                                <span
+                                                    style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
                                                 </div>
-                                                <div class="product-title">
+                                                <h2 class="product-title">
                                                     <a
                                                         href="{{ route('enproduct.more', $enproduct->slug) }}">more</a></span>
-                                                </div>
+                                                </h2>
                                             </div>
                                             <!-- End product details -->
                                         </div>

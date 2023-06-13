@@ -56,7 +56,7 @@ class EnproductController extends Controller
       $enproduct->img = $url;
     }
 
-
+    $enproduct->save();
     
     if ($request->hasFile("images")) {
       $files = $request->file("images");

@@ -90,7 +90,7 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img src="{{ asset('/dashboard/dist/img/avatar4.png') }}" class="img-circle elevation-2"
+                    <img src="{{ asset('/dashboard/dist/img/avatar3.png') }}" class="img-circle elevation-2"
                          alt="User Image">
                 </div>
                 <div class="info">
@@ -120,7 +120,7 @@
                         <a href="#" class="nav-link active">
                             <i class="nav-icon fas fa-book"></i>
                             <p>
-                                Products (EN)
+                                Products
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
@@ -128,7 +128,7 @@
                             <li class="nav-item">
                                 <a href="{{ route('enproduct.index') }}" class="nav-link">
                                     <i class="far fa-arrow-alt-circle-right nav-icon"></i>
-                                    <p>Products (EN)</p>
+                                    <p>Products</p>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -143,7 +143,7 @@
                         <a href="#" class="nav-link active">
                             <i class="nav-icon fas fa-database"></i>
                             <p>
-                                Categories (EN)
+                                Categories
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
@@ -152,7 +152,7 @@
                             <li class="nav-item">
                                 <a href="{{ route('encategory.index') }}" class="nav-link">
                                     <i class="far fa-arrow-alt-circle-right nav-icon"></i>
-                                    <p>Categories (EN)</p>
+                                    <p>Categories</p>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -181,6 +181,32 @@
         <div class="float-right d-none d-sm-inline-block">
             <b><a target="_blank" href="{{ route('main') }}">На сайт</a></b>
         </div>
+        <!-- hit.ua -->
+<a href='https://hit.ua/?x=20032' rel="nofollow" target='_blank'>
+<script><!--
+Cd=document;Cr="&"+Math.random();Cp="&s=1";
+Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+Cp+="&t="+(new Date()).getTimezoneOffset();
+if(self!=top)Cp+="&f=1";
+//--></script>
+<script><!--
+if(navigator.javaEnabled())Cp+="&j=1";
+//--></script>
+<script><!--
+if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+//--></script>
+<script><!--
+Cd.write("<img src='//c.hit.ua/hit?i=20032&g=0&x=2"+Cp+Cr+
+"&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+"' border='0' wi"+"dth='1' he"+"ight='1'/>");
+//--></script>
+<noscript>
+<img src='//c.hit.ua/hit?i=20032&amp;g=0&amp;x=2' alt='stat'/>
+</noscript></a>
+<!-- / hit.ua -->
+
+
     </footer>
 
     <!-- Control Sidebar -->

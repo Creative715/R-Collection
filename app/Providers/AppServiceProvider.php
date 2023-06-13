@@ -28,8 +28,8 @@ class AppServiceProvider extends ServiceProvider
     public function menuLoad()
     {
         View::composer(['app.includes.en_nav', 'app.includes.en_mobile'], function ($view){
-            $view->with('subcategories1', Encategory::all()->where('parent_id', 2));
-            $view->with('subcategories2', Encategory::all()->where('parent_id', 4));
+            $view->with('subcategories1', Encategory::all()->where('parent_id', 1));
+            $view->with('subcategories2', Encategory::all()->where('parent_id', 3));
             // $view->with('encategories', 'subcategories', Encategory::all() );
         });
     }

@@ -15,7 +15,7 @@
     <meta name="description" content="description">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}">
     <!-- Bootstap CSS -->

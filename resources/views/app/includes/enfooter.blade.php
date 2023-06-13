@@ -84,7 +84,7 @@
                         <div class="footer-bottom">
                             <div class="row">
                                 <!--Footer Copyright-->
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-0 order-lg-0 order-sm-1 copyright text-sm-center text-md-left text-lg-left"><span></span> <a href="https://wdesign.net.ua/en/">Creative STUDIO</a></div>
+                                {{-- <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-0 order-lg-0 order-sm-1 copyright text-sm-center text-md-left text-lg-left"><span></span> <a href="https://wdesign.net.ua/en/">Creative STUDIO</a></div> --}}
                                 <!--End Footer Copyright-->
                                 <!--Footer Payment Icon-->
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-0 order-md-1 order-lg-1 order-sm-0 payment-icons text-right text-md-center">
@@ -98,6 +98,30 @@
                                     </ul>
                                 </div>
                                 <!--End Footer Payment Icon-->
+                                <!-- hit.ua -->
+<a href='https://hit.ua/?x=20032' rel="nofollow" target='_blank'>
+    <script><!--
+    Cd=document;Cr="&"+Math.random();Cp="&s=1";
+    Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+    Cp+="&t="+(new Date()).getTimezoneOffset();
+    if(self!=top)Cp+="&f=1";
+    //--></script>
+    <script><!--
+    if(navigator.javaEnabled())Cp+="&j=1";
+    //--></script>
+    <script><!--
+    if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+    screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+    //--></script>
+    <script><!--
+    Cd.write("<img src='//c.hit.ua/hit?i=20032&g=0&x=2"+Cp+Cr+
+    "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+    "' border='0' wi"+"dth='1' he"+"ight='1'/>");
+    //--></script>
+    <noscript>
+    <img src='//c.hit.ua/hit?i=20032&amp;g=0&amp;x=2' alt='stat'/>
+    </noscript></a>
+    <!-- / hit.ua -->
                             </div>
                         </div>
                     </div>

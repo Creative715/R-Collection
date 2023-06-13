@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('title', 'Категорії')
+@section('title', 'Categories')
 @section('content')
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -11,7 +11,7 @@
                     </div><!-- /.col -->
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="{{ route('mainAdmin') }}">Головна</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('mainAdmin') }}">Home</a></li>
                             <li class="breadcrumb-item active">@yield('title')</li>
                         </ol>
                     </div><!-- /.col -->
@@ -48,7 +48,7 @@
                                 ID
                             </th>
                             <th>
-                                Назва
+                                Title
                             </th>
                             <th style="width: 30%">
                             </th>
@@ -68,7 +68,7 @@
                                     <a class="btn btn-info btn-sm" href="{{ route('encategory.edit', $encategory['id']) }}">
                                         <i class="fas fa-pencil-alt">
                                         </i>
-                                        Редагувати
+                                        Edit
                                     </a>
                                     <form action="{{ route('encategory.destroy', $encategory['id']) }}" method="POST"
                                           style="display: inline-block">
@@ -77,7 +77,7 @@
                                         <button type="submit" class="btn btn-danger btn-sm delete-btn">
                                             <i class="fas fa-trash">
                                             </i>
-                                            Видалити
+                                            Delete
                                         </button>
                                     </form>
                                 </td>
