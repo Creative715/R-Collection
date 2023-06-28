@@ -9,53 +9,18 @@
                 </div>
             </div>
             <!--End Search Form Drawer-->
-            <!--Top Header-->
-            <div class="top-header">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-10 col-sm-8 col-md-5 col-lg-4">
-                            {{-- <div class="currency-picker">
-                                <span class="selected-currency">USD</span>
-                                <ul id="currencies">
-                                    <li data-currency="INR" class="">INR</li>
-                                    <li data-currency="GBP" class="">GBP</li>
-                                    <li data-currency="CAD" class="">CAD</li>
-                                    <li data-currency="USD" class="selected">USD</li>
-                                    <li data-currency="AUD" class="">AUD</li>
-                                    <li data-currency="EUR" class="">EUR</li>
-                                    <li data-currency="JPY" class="">JPY</li>
-                                </ul>
-                            </div> --}}
-                            <div class="language-dropdown">
-                                <span class="language-dd">English</span>
-                                <ul id="language">
-                                    <li class="">Norwegian</li>
-                                </ul>
-                            </div>
-                            <p class="phone-no"><i class="anm anm-phone-s"></i> +47 925 49 147</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4 d-none d-lg-none d-md-block d-lg-block">
-                            <div class="text-center"><p class="top-header_middle-text">Buy Environmentally Friendly</p></div>
-                        </div>
-                        <div class="col-2 col-sm-4 col-md-3 col-lg-4 text-right">
-                            <span class="user-menu d-block d-lg-none"><i class="anm anm-user-al" aria-hidden="true"></i></span>
-                            <ul class="customer-links list-inline">
-                                <li><a href="{{ route('login') }}">Login</a></li>
-                                <li><a href="{{ route("register") }}">Create Account</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Top Header-->
+                <!--Top Header-->
+    <!--End Top Header-->
             <!--Header-->
             <div class="header-wrap animated d-flex">
-                <div class="container-fluid">        
+                <div class="container-fluid">
                     <div class="row align-items-center">
                         <!--Desktop Logo-->
-                        <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
+                        <div class="logo col-md-1 col-lg-1 d-none d-lg-block">
                             <a href="{{ route('main') }}">
-                                <img src="{{ asset('assets/images/logo.jpg') }}" alt="R-Collection" title="R-Collection" />
+                                <img src="{{ asset('assets/images/logo.svg') }}" alt="R-Collection" title="R-Collection" />
+                                <br>
+                            <p style="color: #000000;margin-left:5px;">eco-brand</p>
                             </a>
                         </div>
                         <!--End Desktop Logo-->
@@ -63,11 +28,13 @@
                         <div class="col-6 col-sm-6 col-md-6 col-lg-2 d-block d-lg-none mobile-logo">
                             <div class="logo">
                                 <a href="{{ route('main') }}">
-                                    <img src="{{ asset('assets/images/logo.jpg') }}" alt="R-Collection" title="R-Collection" />
+                                    <img src="{{ asset('assets/images/logo.svg') }}" alt="R-Collection" title="R-Collection" />
+                                    <br>
+                            <p style="color: #000000;margin:0 auto;">eco-brand</p>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4 col-sm-3 col-md-3 col-lg-2">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="site-cart">
                                 <a href="#;" class="site-header__cart" title="Cart">
                                     <i class="icon anm anm-bag-l"></i>
@@ -135,9 +102,23 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <!--End Minicart Popup-->
                             </div>
                             <div class="site-header__search">
+                                {{-- <div class="language-dropdown">
+                                    <span class="language-dd">English</span>
+                                    <ul id="language">
+                                        <li class="">Norwegian</li>
+                                    </ul>
+                                </div> --}}
+                                {{-- <span class="user-menu d-block d-lg-none"><i class="anm anm-user-circle-o" aria-hidden="true"></i></span>
+                                <ul class="customer-links list-inline">
+                                    <li><a href="{{ route('login') }}">Login</a></li>
+                                    <li><a href="{{ route("register") }}">Create Account</a></li>
+                                </ul> --}}
+                                <a href="#" style="font-size: 21px;padding-right:10px;"><i class="icon anm anm-user-circle-o"></i></a>
+                                <a href="#" style="font-size: 21px;padding-right:7px;"><i class="icon anm anm-heart-l"></i></a>
                                 <button type="button" class="search-trigger"><i class="icon anm anm-search-l"></i></button>
                             </div>
                         </div>

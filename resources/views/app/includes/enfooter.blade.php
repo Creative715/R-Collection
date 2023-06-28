@@ -3,80 +3,107 @@
                 <div class="newsletter-section">
                     <div class="container">
                         <div class="row">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-7 w-100 d-flex justify-content-start align-items-center">
-                                    <div class="display-table">
-                                        <div class="display-table-cell footer-newsletter">
-                                            <div class="section-header text-center">
-                                                <label class="h2"><span>sign up for </span>newsletter</label>
-                                            </div>
-                                            <form action="#" method="post">
-                                                <div class="input-group">
-                                                    <input type="email" class="input-group__field newsletter__input" name="EMAIL" value="" placeholder="Email address" required="">
-                                                    <span class="input-group__btn">
-                                                        <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe"><span class="newsletter__submit-text--large">Subscribe</span></button>
-                                                    </span>
+                            <div
+                                class="col-12 col-sm-12 col-md-12 col-lg-7 w-100 d-flex justify-content-start align-items-center">
+                                <div class="display-table">
+                                    <div class="display-table-cell footer-newsletter">
+                                        <div class="section-header text-center">
+                                            <label class="h2">
+                                                <div class="running-text">
+                                                    Iconic gift box
+                                                    RC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free
+                                                    exchange and
+                                                    return&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RC Gift
+                                                    Card
                                                 </div>
-                                            </form>
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex justify-content-end align-items-center">
-                                    <div class="footer-social">
-                                        <ul class="list--inline site-footer__social-icons social-icons">
-                                            <li><a class="social-icons__link" href="#" target="_blank" title="R-collection on Facebook"><i class="icon icon-facebook"></i></a></li>
-                                            <li><a class="social-icons__link" href="#" target="_blank" title="R-collection on Twitter"><i class="icon icon-twitter"></i> <span class="icon__fallback-text">Twitter</span></a></li>
-                                            <li><a class="social-icons__link" href="#" target="_blank" title="R-collection on Pinterest"><i class="icon icon-pinterest"></i> <span class="icon__fallback-text">Pinterest</span></a></li>
-                                            <li><a class="social-icons__link" href="#" target="_blank" title="R-collection on Instagram"><i class="icon icon-instagram"></i> <span class="icon__fallback-text">Instagram</span></a></li>
-                                            <li><a class="social-icons__link" href="#" target="_blank" title="R-collection on Tumblr"><i class="icon icon-tumblr-alt"></i> <span class="icon__fallback-text">Tumblr</span></a></li>
-                                            <li><a class="social-icons__link" href="#" target="_blank" title="R-collection on YouTube"><i class="icon icon-youtube"></i> <span class="icon__fallback-text">YouTube</span></a></li>
-                                            <li><a class="social-icons__link" href="#" target="_blank" title="R-collection on Vimeo"><i class="icon icon-vimeo-alt"></i> <span class="icon__fallback-text">Vimeo</span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
-                    </div>    
+                        </div>
+                    </div>
                 </div>
                 <div class="site-footer">
                     <div class="container">
-                         <!--Footer Links-->
+                        <!--Footer Links-->
                         <div class="footer-top">
+                            <div class="newsletter-section">
+                                <div class="row">
+                                    <div
+                                        class="col-12 col-sm-12 col-md-12 col-lg-7 w-100 d-flex justify-content-start align-items-center">
+                                        <div class="display-table">
+                                            <div class="display-table-cell footer-newsletter">
+                                                <div class="section-header text-center">
+                                                    <label class="lead" style="color:#fff"><span>sign up for
+                                                        </span>newsletter</label>
+                                                </div>
+                                                <form action="#" method="post">
+                                                    <div class="input-group">
+                                                        <input type="email"
+                                                            class="input-group__field newsletter__input" name="EMAIL"
+                                                            value="" placeholder="Email address" required="">
+                                                        <span class="input-group__btn">
+                                                            <button type="submit" class="btn newsletter__submit"
+                                                                name="commit" id="Subscribe"><span
+                                                                    class="newsletter__submit-text--large">Subscribe</span></button>
+                                                        </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex justify-content-end align-items-center">
+                                        <div class="footer-social">
+                                            <ul class="list--inline site-footer__social-icons social-icons">
+                                                <li><a class="social-icons__link" href="#" target="_blank"
+                                                        title="R-collection on Facebook"><i
+                                                            class="icon icon-facebook"></i></a></li>
+                                                <li><a class="social-icons__link" href="#" target="_blank"
+                                                        title="R-collection on Twitter"><i
+                                                            class="icon icon-twitter"></i> <span
+                                                            class="icon__fallback-text">Twitter</span></a></li>
+                                                <li><a class="social-icons__link" href="#" target="_blank"
+                                                        title="R-collection on Pinterest"><i
+                                                            class="icon icon-pinterest"></i> <span
+                                                            class="icon__fallback-text">Pinterest</span></a></li>
+                                                <li><a class="social-icons__link" href="#" target="_blank"
+                                                        title="R-collection on Instagram"><i
+                                                            class="icon icon-instagram"></i> <span
+                                                            class="icon__fallback-text">Instagram</span></a></li>
+                                                <li><a class="social-icons__link" href="#" target="_blank"
+                                                        title="R-collection on YouTube"><i
+                                                            class="icon icon-youtube"></i> <span
+                                                            class="icon__fallback-text">YouTube</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
-                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 footer-links">
-                                    <h4 class="h4">Quick Shop</h4>
-                                    <ul>
-                                        <li><a href="{{ url('/en/category/womens-wear.html') }}">Women</a></li>
-                                        <li><a href="{{ url('/en/category/mens-wear.html') }}">Men</a></li>
-                                        <li><a href="#">Sale</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 footer-links">
-                                    <h4 class="h4">Informations</h4>
-                                    <ul>
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Careers</a></li>
-                                        <li><a href="#">Privacy policy</a></li>
-                                        <li><a href="#">Terms &amp; condition</a></li>
-                                        <li><a href="#">My Account</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 footer-links">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 offset-md-3 footer-links">
                                     <h4 class="h4">Customer Services</h4>
                                     <ul>
-                                        <li><a href="#">Request Personal Data</a></li>
-                                        <li><a href="#">FAQ's</a></li>
                                         <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Orders and Returns</a></li>
-                                        <li><a href="#">Support Center</a></li>
+                                        <li><a href="#">Delivery & Returns</a></li>
+                                        <li><a href="#">FAQ's</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 contact-box">
-                                    <h4 class="h4">Contact Us</h4>
-                                    <ul class="addressFooter">
-                                        <li><i class="icon anm anm-map-marker-al"></i><p>Sandakerveien 412<br>0473 Oslo</p></li>
-                                        <li class="phone"><i class="icon anm anm-phone-s"></i><p>+47 925 49 147</p></li>
-                                        <li class="email"><i class="icon anm anm-envelope-l"></i><p>sales@r-collection.com</p></li>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 footer-links">
+                                    <h4 class="h4">Informations</h4>
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Sustainability RC</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                        <li><a href="#">Cookie management</a></li>
+                                        <li><a href="#">Follow Us</a></li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                         <!--End Footer Links-->
@@ -84,44 +111,24 @@
                         <div class="footer-bottom">
                             <div class="row">
                                 <!--Footer Copyright-->
-                                {{-- <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-0 order-lg-0 order-sm-1 copyright text-sm-center text-md-left text-lg-left"><span></span> <a href="https://wdesign.net.ua/en/">Creative STUDIO</a></div> --}}
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-0 order-lg-0 order-sm-1 copyright text-sm-center text-md-left text-lg-left">
+                                    <span></span> <a href="https://wdesign.net.ua/en" target="_blanc"></a></div>
                                 <!--End Footer Copyright-->
                                 <!--Footer Payment Icon-->
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-0 order-md-1 order-lg-1 order-sm-0 payment-icons text-right text-md-center">
+                                <div
+                                    class="col-12 col-sm-12 col-md-6 col-lg-6 order-0 order-md-1 order-lg-1 order-sm-0 payment-icons text-right text-md-center">
                                     <ul class="payment-icons list--inline">
                                         <li><i class="icon fa fa-cc-visa" aria-hidden="true"></i></li>
                                         <li><i class="icon fa fa-cc-mastercard" aria-hidden="true"></i></li>
-                                        <li><i class="icon fa fa-cc-discover" aria-hidden="true"></i></li>
+                                        <li><img src="{{ asset('assets/images/vipps_pay.png') }}" alt="vipps paymant">
+                                        </li>
                                         <li><i class="icon fa fa-cc-paypal" aria-hidden="true"></i></li>
                                         <li><i class="icon fa fa-cc-amex" aria-hidden="true"></i></li>
                                         <li><i class="icon fa fa-credit-card" aria-hidden="true"></i></li>
                                     </ul>
                                 </div>
                                 <!--End Footer Payment Icon-->
-                                <!-- hit.ua -->
-<a href='https://hit.ua/?x=20032' rel="nofollow" target='_blank'>
-    <script><!--
-    Cd=document;Cr="&"+Math.random();Cp="&s=1";
-    Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
-    Cp+="&t="+(new Date()).getTimezoneOffset();
-    if(self!=top)Cp+="&f=1";
-    //--></script>
-    <script><!--
-    if(navigator.javaEnabled())Cp+="&j=1";
-    //--></script>
-    <script><!--
-    if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
-    screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
-    //--></script>
-    <script><!--
-    Cd.write("<img src='//c.hit.ua/hit?i=20032&g=0&x=2"+Cp+Cr+
-    "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
-    "' border='0' wi"+"dth='1' he"+"ight='1'/>");
-    //--></script>
-    <noscript>
-    <img src='//c.hit.ua/hit?i=20032&amp;g=0&amp;x=2' alt='stat'/>
-    </noscript></a>
-    <!-- / hit.ua -->
                             </div>
                         </div>
                     </div>

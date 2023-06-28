@@ -62,19 +62,10 @@
                                                 <!-- End product title -->
                                                 <!-- product price -->
                                                 <!-- End product price -->
-
-                                                <div class="product-review">
-                                                    <span
-                                                        style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
-                                                    <span
-                                                        style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
-                                                    <span
-                                                        style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
-                                                </div>
-                                                <h2 class="product-title">
+                                                {{-- <h2 class="product-title">
                                                     <a
                                                         href="{{ route('encategory.more', $subcategory->slug) }}">more</a></span>
-                                                </h2>
+                                                </h2> --}}
                                             </div>
                                             <!-- End product details -->
                                         </div>
@@ -119,18 +110,6 @@
                                                 <!-- product price -->
                                                 <!-- End product price -->
 
-                                                <div class="product-review">
-                                                    <span
-                                                    style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
-                                                <span
-                                                    style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
-                                                <span
-                                                    style="height: 15px; width:15px; background-color:#FF9500; margin: 20px 3px;display:inline-block;border:solid thin color:#FF9500;border-radius:100%;"></span>
-                                                </div>
-                                                <h2 class="product-title">
-                                                    <a
-                                                        href="{{ route('enproduct.more', $enproduct->slug) }}">more</a></span>
-                                                </h2>
                                             </div>
                                             <!-- End product details -->
                                         </div>
